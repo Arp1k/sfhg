@@ -476,4 +476,4 @@ thread = Thread(target=send_status_message)
 thread.start()
 if __name__ == '__main__':
     print("Бот готовий до роботи. Надішліть команду /start для запуску.")
-    bot.polling(none_stop=True)
+    
